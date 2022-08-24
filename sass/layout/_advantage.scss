@@ -1,5 +1,5 @@
 
-.advantage-list {
+.advantage__list {
     display: flex;
     flex-wrap: wrap;
     .title {
@@ -14,7 +14,7 @@
     }
 }
 
-.item-benefits::before {
+.advantage__item::before {
     content: '';
     height: 120px;
     display: block;
@@ -25,18 +25,18 @@
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.item-antenna::before {
+.advantage__antenna::before {
     background-image: url("../images/antenna.svg")
 }
 
-.item-clock::before {
+.advantage__clock::before {
     background-image: url("../images/clock.svg")
 }
 
-.item-diagram::before {
+.advantage__diagram::before {
     background-image: url("../images/diagram.svg")
 }
 
-.item-astronaut::before {
+.advantage__astronaut::before {
     background-image: url("../images/astronaut.svg")
 }

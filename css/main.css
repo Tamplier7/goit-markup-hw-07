@@ -629,25 +629,25 @@ img {
   border: transparent;
 }
 
-.advantage-list {
+.advantage__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
-.advantage-list .title {
+.advantage__list .title {
   color: var(--primary-text-color);
 }
-.advantage-list .item {
+.advantage__list .item {
   width: 270px;
   margin-right: 30px;
 }
-.advantage-list .item:nth-child(4n) {
+.advantage__list .item:nth-child(4n) {
   margin-right: 0;
 }
 
-.item-benefits::before {
+.advantage__item::before {
   content: "";
   height: 120px;
   display: block;
@@ -659,19 +659,19 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.item-antenna::before {
+.advantage__antenna::before {
   background-image: url("../images/antenna.svg");
 }
 
-.item-clock::before {
+.advantage__clock::before {
   background-image: url("../images/clock.svg");
 }
 
-.item-diagram::before {
+.advantage__diagram::before {
   background-image: url("../images/diagram.svg");
 }
 
-.item-astronaut::before {
+.advantage__astronaut::before {
   background-image: url("../images/astronaut.svg");
 }
 
